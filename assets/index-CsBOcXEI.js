@@ -157,8 +157,10 @@ texCoord = mod(texCoord, 1.0) * outFrame.zw + outFrame.xy;`},disable:!!e}}},8378
       </section>
       <div class="hud__fire-group">
       <button class="hud__view hud__boost" data-input="boost" aria-label="Activate POW">
+        <span class="pow-visual" aria-hidden="true">
         <svg class="boost-ring" viewBox="0 0 64 64" aria-hidden="true"><circle class="boost-ring__track" cx="32" cy="32" r="27"/><circle class="boost-ring__fill" cx="32" cy="32" r="27" pathLength="100"/></svg>
         <span class="pow-icon" aria-hidden="true">${yn}</span>
+        </span>
       </button>
       <button class="fire-control" data-input="charge-down" aria-label="Hold, then release to fire">
         <span data-hud="fire-label">HOLD</span>
